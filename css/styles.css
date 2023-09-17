@@ -601,7 +601,8 @@ opacity: 1;
         padding-top: 72px;
         padding-left: 24px;
         padding-right: 24px;
-        padding-bottom: 8px;
+        padding-bottom: 24px;
+        margin-bottom: 8px;
     }
 .close-btn{
         display: flex;
