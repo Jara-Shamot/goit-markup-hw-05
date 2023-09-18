@@ -693,6 +693,9 @@ position: relative;
 .contact-form-field-wrapper{
     margin-bottom: 8px;
 }
+.contact-form-field-textarea{
+margin-bottom: 16px;
+}
 .contact-form-comment{
 font-size: 12px;
 width: 100%;
