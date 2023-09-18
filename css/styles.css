@@ -602,7 +602,6 @@ opacity: 1;
         padding-left: 24px;
         padding-right: 24px;
         padding-bottom: 24px;
-        margin-bottom: 8px;
     }
 .close-btn{
         display: flex;
@@ -692,7 +691,7 @@ position: relative;
     fill: #4D5AE5;
 }
 .contact-form-field-wrapper{
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 .contact-form-comment{
 font-size: 12px;
