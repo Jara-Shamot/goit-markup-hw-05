@@ -572,13 +572,14 @@ width: 100%;
     background: rgba(46, 47, 66, 0.40);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    transform: opacity 500ms linear, visibility 500ms linear;
+}
+.is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-
-    transform: opacity 500ms linear, visibility 500ms linear;
 }
+
 .backdrop.is-open{
 opacity: 1;
     visibility: visible;
@@ -756,7 +757,7 @@ color:  #8E8F99;
     letter-spacing: 0.04em;
 }
 .contact-form-privacy-link{
-color: var(--IRIS, #4D5AE5);
+color: #4D5AE5;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
